@@ -1,0 +1,207 @@
+/* Circular Content Carousel Style */
+.ca-container{
+	position:relative;
+	margin-top:20px;
+	width:960px;
+	height:420px;
+}
+.ca-wrapper{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.ca-item{
+	position:relative;
+	float:left;
+	width:325px;
+	height:100%;
+	
+}
+.ca-details{
+	padding:4px 15px;
+	color: #666!important;
+	border-radius:5px;
+	display:block;
+	margin-top:30px;
+	width:70px;
+	margin:30px auto 0 auto;
+	letter-spacing:.05em;
+	
+}
+.ca-more:hover{
+	color: #ccc!important;
+
+	
+}
+.ca-close{
+	position:absolute;
+	top:10px;
+	right:30px;
+	background:#fff url(../images/cross.png) no-repeat center center;
+	width:38px;
+	height:38px;
+	text-indent:-9000px;
+	outline:none;
+}
+
+.ca-close:hover{
+	opacity:1.0;
+}
+.ca-item-main{
+	position:absolute;
+	top:5px;
+	left:5px;
+	right:15px;
+	bottom:5px;
+	padding:9px;
+	color:#666666;
+	background-color: #FFF;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius:5px;
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.68);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ADFFFFFF, endColorstr=#ADFFFFFF);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ADFFFFFF, endColorstr=#ADFFFFFF)";
+
+}
+
+.ca-item-main h1{
+color:#000;
+}
+
+.ca-content-wrapper{
+	background:#fff;
+	position:absolute;
+	width:0px; /* expands to width of the wrapper minus 1 element */
+	top:5px;
+	text-align:left;
+	z-index:2;
+	overflow:hidden;
+	color:#666666;
+	height:410px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius:5px;
+
+
+
+	
+}
+.ca-content{
+	width:630px;
+	overflow:hidden;
+}
+.ca-content-text{
+	font-size: 14px;
+	font-style: italic;
+	font-family: "Georgia","Times New Roman",serif;
+	margin:10px 20px;
+	padding:10px 20px;
+	line-height:24px;
+
+}
+
+.ca-content h3{
+	margin:25px 20px 0px 35px;
+	padding-bottom:5px;
+	color:#000;
+	border-bottom:1px solid #000;
+}
+.ca-nav span1{
+	width:43px;
+	height:84px;
+	background:transparent url(../images/slider_button1.png) no-repeat top left;
+	position:absolute;
+	top:50%;
+	margin-top:-19px;
+	left:0px;
+	text-indent:-9000px;
+	cursor:pointer;
+}
+
+
+.ca-nav span:hover1{
+	left:auto;
+	left:-60px;
+	background-position: left -86px;
+}
+
+.ca-nav{
+	width:100%;
+	position: absolute;
+	z-index:111;
+	bottom:0px;
+
+}
+.ca-nav span.ca-nav-next{
+	background:transparent url(../images/next.png) no-repeat top left;
+	background-size: 100%;
+	width:50px;
+	height:50px;
+	text-indent:-9000px;
+	display:block;
+	position:absolute;
+	right:-72px;
+	top:-250px;
+}
+
+.ca-nav span.ca-nav-next:hover{
+	cursor:pointer;
+	background:transparent url(../images/next_ho.png) no-repeat top left;
+	background-size: 100%;
+}
+.ca-nav span.ca-nav-prev{
+	background:transparent url(../images/prev.png) no-repeat top left;
+	background-size: 100%;
+	width:50px;
+	height:50px;
+	text-indent:-9000px;
+	display:block;
+	position:absolute;
+	left:-68px;
+	top:-250px;
+}
+.ca-nav span.ca-nav-prev:hover{
+	cursor:pointer;
+	background:transparent url(../images/prev_ho.png) no-repeat top left;
+	background-size: 100%;
+}
+
+.ca-item-text{
+	margin-top:10px;
+	text-align:center;
+	height:200px;
+	overflow:hidden;
+}
+.ca-item-text h2{
+	line-height:30px;
+}
+
+/* Retina */
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+	.ca-nav span.ca-nav-next{
+		background:transparent url(../images/next@2x.png) no-repeat top left;
+		background-size: 100%;
+	}
+	.ca-nav span.ca-nav-prev{
+		background:transparent url(../images/prev@2x.png) no-repeat top left;
+		background-size: 100%;
+	}
+	.ca-nav span.ca-nav-next:hover{
+		background:transparent url(../images/next_ho@2x.png) no-repeat top left;
+		background-size: 100%;
+	}
+	.ca-nav span.ca-nav-prev:hover{
+		background:transparent url(../images/prev_ho@2x.png) no-repeat top left;
+		background-size: 100%;
+	}
+}

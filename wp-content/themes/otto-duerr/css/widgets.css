@@ -1,0 +1,417 @@
+/*  Globle #sidebar widget style
+----------------------------------------------------------------------------------------------------*/
+.widget-container{
+	border:1px solid #dedede;
+		border-radius:4px;
+	-moz-border-radius-topleft:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-radius-topleft:4px;
+	-webkit-border-radius-topright:4px;
+	margin-bottom:20px;	
+}
+.widget_inner{
+	margin:0 auto;
+	clear:both;
+	display:block;
+	background-color:#f9f9f9;
+	border:1px solid #fff;	
+	border-radius:4px;
+	-moz-border-radius-topleft:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-radius-topleft:4px;
+	-webkit-border-radius-topright:4px;
+	box-shadow: 0 5px 5px -5px #666;
+	padding:15px 20px 15px 20px;
+	color:#666;
+	overflow:hidden;
+}
+
+
+.widget-container a:link, .widget-container a:visited{
+color:#333;
+}
+.widget-container a:hover{
+color:#666;
+}
+.widget-container ul{
+clear:both;
+list-style:none;
+margin:0px;
+padding:0px;
+}
+.widget-container ul li:last-child, .widget-container-top ul li:last-child, .widget-container-top div.twitter_text:last-child{
+border-bottom:none;
+margin-bottom:0px;
+}
+
+
+.widget-container h3{
+	color:#333;
+	clear:both;
+	display:block;
+
+}
+
+
+
+/*  Default Wordpress widget styles 
+----------------------------------------------------------------------------------------------------*/
+.widget_archive ul li a, .widget_links ul li a, .widget_pages ul li a, .widget_meta ul li a, .widget_recent_entries ul li a, .widget_nav_menu ul li a, .widget_categories ul li a{
+    background-image: url("../images/list-arrow.png");
+    background-position: 0 3px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+	display:block;
+	line-height:20px;
+	border-bottom:1px solid #e4e3d9;
+	padding-bottom:12px;
+	margin-bottom:12px;
+}
+
+.widget_recent_comments ul li{
+	background-image: url(../images/comments.png);
+	background-repeat: no-repeat;
+	background-position: left 5px;	
+	padding-left:25px;
+	margin:12px 0;
+	display:block;
+	width:235px;
+	padding-left:25px;
+}	
+
+.widget_tag_cloud .tagcloud a {
+    background: none repeat scroll 0 0 #414247;
+     margin: 5px 8px 5px 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius:5px;
+	color:#ccc!important;
+	overflow:hidden;
+	display:block;	
+	padding:3px 10px;
+}
+.widget_tag_cloud .tagcloud a:hover{
+	color:#eee!important;
+}
+
+.widget_search #s{
+	width:220px;
+}
+
+/* Top Toggle Section Widgets styles
+----------------------------------------------------------------------------------------------------*/
+
+#panel_widget .thumb {
+	background-color:#434343;
+	border:1px solid #555;
+}
+
+.widget_categoryposts ul, .widget_popularposts ul, .widget_taxpost ul, .widget_recent_comments ul, .widget_cat_post_slider ul, .widget_cat_post_news ul, .widget_cat_post_slider_testimonial ul,
+.widget_links ul
+{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.widget_categoryposts ul li, .widget_popularposts ul li, .widget_taxpost ul li, .twitter_widget .twitter_text, .widget_cat_post_slider li, .widget_cat_post_news ul li{
+	overflow:hidden;
+	padding-bottom:12px;
+	margin-bottom:12px;
+	border-bottom:0px solid #e4e3d9;
+	border-bottom:1px solid rgba(127,127,127,.15);
+}
+
+
+
+.twitter_widget .twitter_text{
+	background-image: url(../images/twitter_icon.png);
+	background-repeat: no-repeat;
+	background-position: left 3px;
+	padding-left:30px;
+	padding-bottom:12px;
+	margin-bottom:12px;
+	
+}	
+.flickr_widget div{
+	float:left;
+}
+.flickr_widget div img{
+	float:left;
+	margin-right:7px;
+	margin-bottom:7px;
+	width:46px;
+	height:46px;
+	border:1px solid rgba(255,255,255,1);
+	padding:4px;
+	background-image: url(../images/opacity25.png);
+	background-repeat: repeat;
+	-webkit-border-radius:5px;
+	-moz-border-radius: 5px;
+	border-radius:5px;
+	background-color:#434343;
+	border:1px solid #555;
+}
+
+/* News slider widget
+----------------------------------------------------------------------------------------------------*/
+
+.widget_cat_post_news ul li{
+	margin-bottom:10px;
+	padding-bottom:10px;
+
+}
+.widget_cat_post_slider_news ul li:last-child{
+border-bottom:none;
+padding-bottom:0px;
+margin-bottom:0px;
+
+}
+#content .calender h4{
+	
+}
+
+#content .calender h5{
+	line-height:16px!important;
+	color:#fff;
+	font-size:13px;
+}
+.date-bg{
+	float: left;
+    margin: 0 20px 0 0;
+}
+.description {
+	display:block;
+	overflow: hidden;
+
+}
+.description h4{
+	text-decoration:underline;
+}
+.description h4:hover{
+	color:#666;
+}
+
+.latest_news_content {
+    border-bottom: 0px solid #EDECEC;
+	border-bottom:1px solid rgba(127,127,127,.15);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.latest_news_content:last-child {
+border-bottom:none;
+margin-bottom:0px;
+padding-bottom:0px;
+
+    
+}
+/* sidebar mini contact form styles
+----------------------------------------------------------------------------------------------------*/
+.sidebar .widget_mini_contactform input, .sidebar_left .widget_mini_contactform textarea{
+	padding:5px;
+}
+.error{
+	clear:both;
+	color:#FF3300;
+	float:left;
+}
+.widget_mini_contactform p{
+	display:block;
+	padding-bottom:5px;
+	overflow:hidden;
+}
+.widget_mini_contactform label{
+	display:block;
+}
+#mini_submit{
+	padding:3px 5px;
+	color:#ccc;
+	background-color: #222;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+    cursor: pointer;
+    float: left;
+    padding:5px 15px;
+	margin:15px 0 0 0px;
+	border:none;
+}
+/* Contact Info Widget section
+----------------------------------------------------------------------------------------------------*/
+.contactinfo_widget span{
+	clear:both;
+	display:block;
+	width:100%;
+	margin:0 0 5px 0;
+}
+
+/* Contact Infor widget styles
+----------------------------------------------------------------------------------------------------*/
+.widget_contactinfo span#address, .widget_contactinfo span#phone, .widget_contactinfo span#fax, .widget_contactinfo span#email {
+	clear:both;
+	padding:7px 0px;
+	display:block;
+	
+}
+.widget_contactinfo span strong {
+	clear:both;
+	font-size:13px;
+}
+
+
+.widget_contactinfo span#address{
+	
+}
+
+.widget_contactinfo span#email{
+	
+}
+
+.widget_contactinfo span#phone{
+	}
+
+.widget_contactinfo span#fax{
+	}
+/* sidebar calander widget styles
+----------------------------------------------------------------------------------------------------*/
+#sidebar .widget_calendar table{
+width:100%;
+}
+#sidebar .widget_calendar table caption{
+	font-weight:bold;
+	font-size:16px;
+	text-align:left;
+}
+
+#sidebar .widget_calendar table td{
+	border:1px solid #eaeaea;
+	text-align:center;
+	padding:5px;
+}
+#sidebar .widget_calendar table td a, #sidebar .widget_calendar table td a:visited{
+	color:#CCCCCC;
+	text-decoration:underline;
+}
+#sidebar .widget_calendar table td a:hover{
+	color:#000;
+	text-decoration:underline;
+}
+#sidebar .widget_calendar table th{
+	background-color:#dedede;
+	border:1px solid #fff;
+	padding:3px;
+}
+.search_box{
+	float:right;
+	padding-right:20px;
+	padding-top:17px;
+}
+.search_box input#s{
+border:1px solid #111;
+}
+#search_form {
+	background: none repeat scroll 0 0 #2c2c2c;
+	float: right;
+	height: 27px;
+	position: relative;
+	border:1px solid #3c3c3c;
+	-webkit-border-radius:5px;
+	-moz-border-radius: 5px;
+	border-radius:5px;
+}
+
+input#s {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	vertical-align: middle;
+	background-color:#1f1f1f;
+	border:1px solid #1f1f1f;
+	padding:6px 17px 6px 0px;
+	height:13px;
+	padding-right:30px;
+	color:#ccc;
+	-webkit-border-radius:5px;
+	-moz-border-radius: 5px;
+	border-radius:5px;
+	padding-left:5px;
+}
+input#searchsubmit {
+	background:url(../images/search_button.png) no-repeat scroll 0 0 transparent;
+	display: block;
+	font-size: 0;
+	height: 14px;
+	line-height: 0;
+	position: absolute;
+	right: 12px;
+	top: 7px;
+	width:16px;
+	border:none;
+	cursor:pointer;
+}
+input#searchsubmit:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+/* comments style
+-------------------------------------------------------------------------------- */
+span.recenpost-body-text{
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+span.recentpost-date {
+	font-size:11px;
+	overflow:hidden;
+	padding-right:10px;	
+}
+
+span.recentpost-comments{
+	font-size:11px;
+	background-image: url(../images/comments.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	width:16px;
+	height:16px;
+	padding-left:20px;
+	float:right;
+	line-height:17px;}
+
+
+/* Homepage Bottom  widget  style
+-------------------------------------------------------------------------------- */
+#bottom_widget_columns .widget-container{
+	margin-bottom:0px;
+	
+}
+#bottom_widget_columns .widget-container h3{
+	color:#fff;
+}
+#bottom_widget_columns .widget-container{
+	border:1px solid #fff;
+}
+#bottom_widget_columns .widget_inner{
+	background-color:#363230;
+	border:1px solid #222;
+	color:#999;
+	background-image: url(../images/header_bg.png);
+	background-repeat: repeat;	
+}
+.widget_archive ul li a, .widget_links ul li a, .widget_pages ul li a, .widget_meta ul li a, .widget_recent_entries ul li a, .widget_nav_menu ul li a, .widget_categories ul li a{
+
+	border-bottom:1px solid rgba(127,127,127,.15)!important;	
+
+}
+
+
+#bottom_widget_columns .widget-container a:link, #bottom_widget_columns .widget-container a:visited{
+color:#ccc;
+}
+
+#bottom_widget_columns .widget-container a:hover{
+color:#fff;
+}
+
+.widget_contactinfo	h3	{
+	vertical-align: top;
+}

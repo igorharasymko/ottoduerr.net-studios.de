@@ -1,0 +1,25 @@
+.kayaoptions-formtable {
+padding:10px;
+color:#666;
+}
+
+.kayaoptions-formtable div {
+padding-bottom:10px;
+}
+.colorSelector div {
+height:20px !important;
+padding-bottom:0px !important;
+}
+span.desc{
+padding:10px 0px!important;
+
+}
+.metapanel {width:auto;}
+.formfirstcolumn { width:300px; display:block; float:left; font-size:12px; font-weight:bold;}
+.fieldsdiv {width:auto; margin-left:300px;}
+.fieldsdiv .radio_button { padding:5px 10px; margin:0px 8px; text-align:left;} 
+.fieldsdiv  span.desc { display:block; padding-top:5px;} 
+.kaya_widgetsidebar {
+display:none;
+}
+

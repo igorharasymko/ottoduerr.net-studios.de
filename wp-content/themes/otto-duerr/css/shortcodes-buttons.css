@@ -1,0 +1,704 @@
+/* Read More Buttons
+----------------------------------------------------------------------------------------------------*/
+.readmore a{	
+	font: normal 12px/18px Arial, Helvetica, sans-serif;
+	display: inline-block;
+	height: 26px;
+	margin: 0 15px 0em 15px;
+	padding: 5px 20px 5px 5px;
+	position: relative;
+	text-decoration: none !important;
+	clear:both;
+	margin-top:5px;
+	display:block;
+	float:left;
+	line-height:23px;
+	font-weight:bold;
+	letter-spacing:.05em;
+	padding-right:40px;
+
+}
+
+.readmore a, .readmore a:visited, .readmore, .readmore:visited {	
+	color: #ccc !important;
+}
+.readmore a:hover {	
+	color: #fff !important;
+}
+
+a.readmore, a.readmore:visited {	
+	color: #ccc !important;
+}
+a.readmore:hover {	
+	color: #fff !important;
+}
+
+.readmore span {		
+		height: 36px;
+		left: -15px;
+		position: absolute;
+		top: -10px;
+		width: 15px;
+		display:block;	
+	
+	
+	}
+.readmore  span, .readmore  span{
+	margin-top:10px;
+}
+
+
+.readmore:hover { text-decoration: none; }
+
+
+.readmore a{
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/readmore.png);
+	background-repeat: no-repeat;
+	background-position: right top;	
+
+}
+ 
+.readmore a:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/readmore.png);
+	background-repeat: no-repeat;
+	background-position: right -36px;
+
+ }
+
+.readmore span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/readmore.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+ }
+.readmore:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/readmore.png);
+	background-repeat: no-repeat;
+	background-position: left -36px;
+}
+
+
+
+/*BUTTONS*/
+
+/* SHORTCODE SMALL ROUNDED BUTTONS */
+
+.button_small {
+	color: #ffffff !important;
+	font: normal 12px/18px Arial, Helvetica, sans-serif;
+	display: inline-block;
+	height: 23px;
+	margin: 0 1em 1em 15px;
+	padding: 5px 20px 5px 5px;
+	position: relative;
+	text-decoration: none !important;
+	clear:both;
+	margin-top:15px;
+	display:block;
+	float:left;
+	line-height:23px;
+	font-weight:bold;
+	letter-spacing:.05em;
+
+
+
+}
+.button_small a {	
+	color: #ffffff !important;
+}
+
+.button_small span {		
+		height: 33px;
+		left: -15px;
+		position: absolute;
+		top: -10px;
+		width: 15px;
+		display:block;
+	
+	
+	}
+.button_small  span, .button_big  span{
+	margin-top:10px;
+}
+
+
+.button_small:hover { text-decoration: none; }
+
+
+
+
+
+/* COLORS */
+/*blue/default */
+
+span.button_small_container .blue {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+
+}
+ 
+span.button_small_container .blue:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -33px;
+
+ }
+
+span.button_small_container .blue span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+ }
+span.button_small_container .blue:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -33px;
+}
+
+
+
+/*orange */
+
+span.button_small_container .orange {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -66px;
+	color:#fff!important;
+
+	
+}
+ 
+span.button_small_container .orange:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -99px;
+
+ }
+
+span.button_small_container .orange span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -66px;
+ }
+span.button_small_container .orange:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -99px;
+}
+
+/*green */
+
+span.button_small_container .green {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -132px;
+	color:#fff!important;
+	
+}
+ 
+span.button_small_container .green:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -165px;
+
+ }
+
+span.button_small_container .green span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -132px;
+ }
+span.button_small_container .green:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -165px;
+}
+
+
+
+/*black */
+span.button_small_container .black {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -198px;
+	color:#fff!important;
+
+}
+ 
+span.button_small_container .black:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -231px;
+
+ }
+
+span.button_small_container .black span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -198px;
+ }
+span.button_small_container .black:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -231px;
+}
+
+
+/*gray */
+
+span.button_small_container .gray {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -264px;
+	color:#fff!important;
+
+}
+ 
+span.button_small_container .gray:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -297px;
+
+ }
+
+span.button_small_container .gray span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -264px;
+ }
+span.button_small_container .gray:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -297px;
+}
+
+
+/*white */
+span.button_small_container .white {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -330px;
+	color:#333!important;
+	
+}
+ 
+span.button_small_container .white:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -363px;
+
+ }
+
+span.button_small_container .white span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -330px;
+ }
+span.button_small_container .white:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -363px;
+}
+
+
+
+/*red */
+span.button_small_container .red {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -396px;
+	color:#fff!important;
+	text-shadow: 0px 0px 1px #000;
+}
+ 
+span.button_small_container .red:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -429px;
+
+ }
+
+span.button_small_container .red span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -396px;
+ }
+span.button_small_container .red:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -429px;
+}
+
+/*pink */
+span.button_small_container .pink {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -462px;
+	color:#fff!important;
+
+}
+ 
+span.button_small_container .pink:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: right -495px;
+
+ }
+
+span.button_small_container .pink span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -462px;
+ }
+span.button_small_container .pink:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_small.png);
+	background-repeat: no-repeat;
+	background-position: left -495px;
+}
+
+
+
+
+/* BIG ROUNDED BUTTONS */
+a.button_big {	
+	color: #ffffff !important;
+	font: bold 16px/18px Arial, Helvetica, sans-serif;
+	display: inline-block;
+	height: 38px;
+	margin: 0 1em 1em 16px;
+	padding: 10px 20px 5px 5px;
+	position: relative;
+	text-decoration: none !important;
+	text-align:center;
+	margin-top:15px;
+}
+span.button_big_container a {	
+
+}
+span.button_big_container a em {	
+	line-height: inherit;
+	clear:both;
+
+}
+a.button_big:visited{	
+	color: #ffffff !important;
+	
+}
+
+	.button_big span {		
+		height: 53px;
+		left: -15px;
+		position: absolute;
+		top: -10px;
+		width: 20px;
+	}
+	
+	.button_big em {
+	font-size:12px;
+	font-style: italic;
+	font-weight:normal;
+	}
+	
+.button_big:hover { text-decoration: none; }
+
+
+/* COLORS */
+
+/* short code big buttons blue
+----------------------------------------------------------------------------------------------------*/
+span.button_big_container .blue {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	text-shadow: 0px 0px 1px #666;
+}
+ 
+span.button_big_container .blue:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -53px;
+
+ }
+
+span.button_big_container .blue span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+ }
+span.button_big_container .blue:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -53px;
+}
+
+
+
+/* short code big buttons Orange
+----------------------------------------------------------------------------------------------------*/
+span.button_big_container .orange {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -106px;
+	color:#fff!important;
+	 text-shadow: 0px 0px 1px #666;
+
+}
+ 
+span.button_big_container .orange:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -159px;
+
+ }
+
+span.button_big_container .orange span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -106px;
+ }
+span.button_big_container .orange:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -159px;
+}
+
+/*green */
+span.button_big_container .green {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -212px;
+	color:#fff!important;
+	text-shadow: 0px 0px 1px #333;
+
+}
+ 
+span.button_big_container .green:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -265px;
+
+ }
+
+span.button_big_container .green span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -212px;
+ }
+span.button_big_container .green:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -265px;
+}
+
+/* short code big buttons black
+----------------------------------------------------------------------------------------------------*/
+span.button_big_container .black {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -318px;
+	color:#eee!important;
+	text-shadow: 0px 0px 1px #000;
+
+}
+ 
+span.button_big_container .black:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -371px;
+
+ }
+
+span.button_big_container .black span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -318px;
+ }
+span.button_big_container .black:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -371px;
+}
+
+
+/* short code big buttons gray
+----------------------------------------------------------------------------------------------------*/
+span.button_big_container .gray {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -424px;
+	color:#fff!important;
+	text-shadow: 0px 0px 1px #333;
+
+}
+ 
+span.button_big_container .gray:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -477px;
+
+ }
+
+span.button_big_container .gray span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -424px;
+ }
+span.button_big_container .gray:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -477px;
+}
+
+
+/* short code big buttons white
+----------------------------------------------------------------------------------------------------*/
+span.button_big_container .white {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -530px;
+	color:#333!important;
+	text-shadow: 0px 0px 1px #999;
+
+}
+ 
+span.button_big_container .white:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -583px;
+
+ }
+
+span.button_big_container .white span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -530px;
+ }
+span.button_big_container .white:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -583px;
+}
+/* short code big buttons red
+----------------------------------------------------------------------------------------------------*/
+span.button_big_container .red {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -636px;
+	color:#eee!important;
+	text-shadow: 0px 0px 1px #333;
+
+}
+ 
+span.button_big_container .red:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -689px;
+
+ }
+
+span.button_big_container .red span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -636px;
+ }
+span.button_big_container .red:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -689px;
+}
+/* short code big buttons pink
+----------------------------------------------------------------------------------------------------*/
+span.button_big_container .pink {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -742px;
+	color:#fff!important;
+	text-shadow: 0px 0px 1px #222;
+
+}
+ 
+span.button_big_container .pink:hover { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: right -795px;
+
+ }
+
+span.button_big_container .pink span { 
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -742px;
+ }
+span.button_big_container .pink:hover span {
+	background-attachment: scroll;
+	background-image: url(../images/shortcodes/button_big.png);
+	background-repeat: no-repeat;
+	background-position: left -795px;
+}

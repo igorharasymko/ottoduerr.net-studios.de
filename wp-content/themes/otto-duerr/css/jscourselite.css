@@ -1,0 +1,71 @@
+#jcarousellite_holder_wrapper{
+position: relative;
+width:1000px;
+margin:0 auto;
+}
+
+#jcarousellite_holder{
+width:1000px;
+margin:0px auto;
+overflow:hidden;
+margin-bottom:30px;
+padding:0px;
+
+}
+
+#jcarousellite_holder li{
+list-style:none;
+}
+
+ul#sliderlite {
+	margin:0px;
+	padding:0px;
+	height:314px;
+	overflow:hidden;
+
+}
+ul#sliderlite li{
+	margin-right:20px;
+	margin-bottom:20px;
+	display:inline-block;
+	width:235px;
+}
+
+#jcarousellite_holder img{
+
+}
+
+.next{
+position: absolute;
+top: 135px;
+right: -45px;
+width: 22px;
+height: 44px;
+cursor: pointer;
+background: transparent url(../images/button-next.gif) no-repeat 0 0;
+z-index:1111;
+opacity:0.5;
+filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.next:hover{
+background-position:0 -44px ;
+}
+
+.prev{
+position: absolute;
+top: 135px;
+left: -45px;
+width: 22px;
+height: 44px;
+cursor: pointer;
+background: transparent url(../images/button-prev.gif) no-repeat 0 0;
+opacity:0.5;
+filter:alpha(opacity=50); /* For IE8 and earlier */
+
+
+}
+
+.prev:hover{
+background-position:0 -44px ;
+}

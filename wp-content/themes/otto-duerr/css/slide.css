@@ -1,0 +1,132 @@
+.tab {
+	position: relative;
+    top: 0;
+    z-index: 999;
+}
+
+.tab ul.login {
+	display: block;
+	position: relative;
+  	float: right;
+  	height: 52px;
+	right:0px;
+	top:5px;
+}
+
+
+.tab ul.login li {
+	display: block;
+	float: left;
+	height:52px;
+}
+
+.tab a.open, .tab a.close {
+	height: 20px;
+	cursor: pointer;
+	display: block;
+	width:52px;
+	height:52px;
+	position: relative;
+	top:0px;
+	right:0px;
+}
+
+.tab a.open {background: url(../images/panel_down.png) no-repeat left 0;}
+.tab a.close {background: url(../images/panel_up.png) no-repeat left 0;}
+
+
+
+/* sliding panel */
+
+#panel_wrapper {
+	width: 100%;
+	height:auto;
+	color: #999999;
+	overflow: hidden;
+	position: relative;
+	z-index:999;
+	display: none;
+	top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #323232;
+	background-image: url(../images/toggle_box_panel_bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;	
+}
+#panel_wrapper a:link, #panel_wrapper a:visited {
+color:#ccc;
+}
+#panel_wrapper a:hover {
+color:#999;
+}
+
+#panel_widget{
+border-bottom:5px solid #323232;
+}
+
+
+.panel{
+width:960px;
+margin:0px auto;
+padding:20px 0px 20px 0px;
+color:#888888;
+}
+
+.panel h3{
+color:#eee;
+border-bottom:1px solid #3e3e3e;
+margin-bottom:15px;
+padding-bottom:10px;
+}
+
+ul.panel_list,ul.panel_tweet_list{
+list-style:none;
+}
+
+ul.panel_list li,.panel_tweet_list li{
+padding-bottom:10px;
+margin-bottom:10px;
+border-bottom:1px dotted #333333;
+}
+
+.panel_tweet_list li{
+background-image:url(../images/twitter_side_icon.png);
+background-repeat:no-repeat;
+background-position:0 3px;
+padding-left:30px;
+}
+
+.flickr_widget img{
+float: left;
+margin: 0 10px 10px 0;
+}
+
+span.phone{
+background-image:url(../images/phone_icon.png);
+background-repeat:no-repeat;
+background-position:left center;
+padding:10px 10px 10px 40px;
+display:block;
+}
+
+span.message{
+background-image:url(../images/message_icon.png);
+background-repeat:no-repeat;
+background-position:left center;
+padding:5px 10px 5px 40px;
+display:block;
+}
+
+span.address{
+background-image:url(../images/home_icon.png);
+background-repeat:no-repeat;
+background-position:left center;
+padding:10px 10px 10px 40px;
+display:block;
+}
+
+p.post-date{
+color:#ccc;
+
+}

@@ -1,0 +1,1 @@
+18-08-2014 19:28:10 - ERROR - 18,2 MB - Subscription of an address with status C

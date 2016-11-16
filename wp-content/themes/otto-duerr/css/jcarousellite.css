@@ -1,0 +1,82 @@
+#jcarousellite_wrapper{
+
+}
+	.jcarousellite{
+	height:255px;
+	overflow:hidden;
+	position:relative;
+	margin-top:30px;
+	}
+
+.sliderImages_wrapper{
+	list-style:none;
+	border:1px solid #fff;
+	background-color:#f9f9f9;
+	padding:9px;
+	box-shadow: 4px 4px 3px 0 rgba(35, 35, 35, 0.2);
+	width:400px;
+	height:225px;
+	overflow:hidden;
+	float:left;
+}
+
+.sliderImages ul{
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	list-style:none;
+}
+.jcarousellite_border{
+	overflow:hidden;
+	float:left;
+	width:400px;
+	height:225px;
+
+
+}
+
+/* Slider Text Holder section 
+----------------------------------------------------------------------------------------------------*/
+
+.sliderTextHolder ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.sliderTextHolder ul li{
+	height:240px;
+	overflow:hidden;
+}
+
+.sliderTextHolder h2 {
+color:#fff;
+	
+}
+
+/* Slider Navigation buttons 
+----------------------------------------------------------------------------------------------------*/
+#slider_nav{
+	position:absolute;
+	top:125px;
+	left:415px;
+}
+#slider_nav a.next_jcarousellite{
+	position: relative;
+	top:-40px;
+	right:0px;
+	z-index:222;
+	opacity:0.85;
+}
+
+#slider_nav a.prev_jcarousellite{
+	position: relative;
+	top:0px;
+	right:-26px;	
+	z-index:222;
+	opacity:0.85;
+}
+
+#slider_nav a.next_jcarousellite:hover, #slider_nav a.prev_jcarousellite:hover{
+opacity:1;
+
+}

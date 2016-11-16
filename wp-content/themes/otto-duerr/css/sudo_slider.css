@@ -1,0 +1,239 @@
+/* Home page Sudo Slider styles
+----------------------------------------------------------------------------------------------------*/
+#sudo_slider_home{
+margin-top:20px;
+}
+
+#sudo_slider_home ul, #sudo_slider_home li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	display:block;
+}
+
+#sudo_slider_home, #sudo_slider_home li{
+    min-height:350px;
+	overflow:hidden;
+	/* height:350px; */
+	 }
+#sudo_slider_home_content_box{
+	width:300px;
+	padding:20px;
+	background-image: url(../images/opacity.png);
+	background-repeat: repeat;
+	position:absolute;
+	top:20px;
+	left:20px;
+} 
+h3#title_fixed_height_slider{
+	padding:5px 10px;
+	background-image: url(../images/opacity.png);
+	background-repeat: repeat;
+	position:absolute;
+	top:20px;
+	left:20px;
+	float:left;
+	color:#fff;
+}
+
+#sudo_slider_home_content_box h3{
+color:#fff;
+
+} 
+/* Sudo Slider styles for slider with text 
+----------------------------------------------------------------------------------------------------*/
+#imageslider_text_wrapper{
+margin-top:30px;
+float:left;
+}
+
+#imageslider_text ul, #imageslider_text li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	display:block;
+}
+
+#imageslider_text, #imageslider_text li{
+	overflow:hidden;
+	/* height:350px; */
+	 }
+
+/* Sudo Slider styles
+----------------------------------------------------------------------------------------------------*/
+#kaya_portfolio_slider ul, #kaya_portfolio_slider li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	display:block;
+}
+
+#kaya_portfolio_slider, #kaya_portfolio_slider li{
+    min-height:350px;
+	overflow:hidden;
+	/* height:350px; */
+	 }
+
+span#controls{	
+	display:block;
+	position: relative;
+	width:100%;
+	height:0px;
+	z-index:222;
+	top:-80px;
+	right:-5px;
+}
+
+
+ol.controls{
+	margin:0px;
+	padding:5px;
+	position:absolute;
+	z-index:222;
+	display:block;
+	background-color:#f9f9f9;
+	border-right:4px solid #ccc;
+	right:0px;
+	border-radius:4px;
+	-moz-border-radius-topleft:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-radius-topleft:4px;
+	-webkit-border-radius-topright:4px;
+
+	}
+	ol.controls li{
+	width:14px;
+	height:14px;
+	display:block;
+	line-height:27px;
+	color:#333;
+	text-decoration:none;
+	background-image: url(../images/nivo-slider-bt@2x.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin:5px;
+	text-indent:-9999px;
+	cursor:pointer;
+	float:right;
+
+
+}
+
+ol.controls li.current{
+	background-image: url(../images/nivo-slider-bt@2x.png);
+	/*background-repeat: no-repeat;*/
+	background-position: center bottom;
+	/*background-size: cover;*/
+	color:#eee;
+}
+/*@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),*/
+/*only screen and (-moz-min-device-pixel-ratio: 1.5),*/
+/*only screen and (-o-min-device-pixel-ratio: 3/2),*/
+/*only screen and (min-device-pixel-ratio: 1.5) {*/
+	/*ol.controls li{*/
+		/*background-image: url(../images/nivo-slider-bt@2x.png);*/
+	/*}*/
+	/*ol.controls li.current{*/
+		/*background-image: url(../images/nivo-slider-bt@2x.png);*/
+		/*background-position: left -20px;*/
+	/*}*/
+/*}*/
+
+
+#kaya_portfolio_slider_single_image ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+/* News jcarousellite slider & Testimonial sudo sldier Slider widget
+----------------------------------------------------------------------------------------------------*/
+
+#testimonial ul, #testimonial li, 
+#kaya_news ul, #kaya_news ul li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	display:block;
+}
+#testimonial, #testimonial li, 
+#kaya_news, #kaya_news li{
+  overflow:hidden;	
+}
+
+.widget_cat_post_slider_testimonial{
+	background-image: url(../images/testimonial_quotes.png);
+	background-repeat: no-repeat;
+	background-position: right 60px;
+	position:relative;
+}
+#testimonial #tm_client_name{
+	color:#333;
+	text-align:right;
+	float:right;
+}
+
+.widget_cat_post_slider_news{
+	position:relative;
+}
+
+.widget_cat_post_slider_testimonial #controls, .widget_cat_post_slider_news span#controls
+
+ {
+	position:absolute;
+	display:block;
+	top:20px;
+	right:20px;
+	float:right;
+	z-index:3;
+	text-align:right;
+	height:20px;
+}
+.widget_cat_post_slider_testimonial #controls a.nextBtn, .widget_cat_post_slider_news #controls a.nextBtn {
+	position: absolute;
+	top:0px;
+	right:0px;
+	width: 26px;
+	height:45px;
+	cursor: pointer;	
+	font-size:0px;
+	background: transparent url(../images/latest_news_next_bt.png) no-repeat right 0;	
+}
+.widget_cat_post_slider_testimonial #controls a.nextBtn:hover, .widget_cat_post_slider_news #controls a.nextBtn:hover{
+	background-position: right -47px;
+}
+
+.widget_cat_post_slider_testimonial #controls a.prevBtn, .widget_cat_post_slider_news #controls a.prevBtn{
+	position: absolute;
+	top:0px;
+	right:25px;
+	width:26px;
+	height:45px;
+	cursor: pointer;
+	font-size:0px;
+	background: transparent url(../images/latest_news_prev_bt.png) no-repeat 0 0;
+}
+
+.widget_cat_post_slider_testimonial #controls a.prevBtn:hover, .widget_cat_post_slider_news #controls a.prevBtn:hover{
+	background-position: left -47px;
+}
+
+
+#kslider ul, #kslider li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	display:block;
+}
+
+#kslider, #kslider li{
+	overflow:hidden;
+	/* height:350px; */
+	 }
+
+

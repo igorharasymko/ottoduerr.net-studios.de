@@ -1,0 +1,196 @@
+.jqueryslidemenu{
+	float:right;	
+	position:relative;
+	z-index:55;
+	margin-top:65px;
+	margin-bottom:15px;
+	border-radius: 5px;
+	padding: 1px;
+	background: none; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#E6E6E6, #E6E6E6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#E6E6E6, #E6E6E6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E6E6E6, #E6E6E6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E6E6E6, #E6E6E6); /* Standard syntax */
+}
+
+.jqueryslidemenu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.jqueryslidemenu ul:first-child {
+	background-image: url(../images/navi_bg.png);
+	background-repeat: repeat-x;
+	border-radius: 3px;
+	border-top: 1px solid #C1C1C2;
+	padding: 0px 5px;
+}
+
+.jqueryslidemenu ul > img 	{
+	float: left;
+}
+
+.jqueryslidemenu ul li.main-links > a{
+
+}
+.jqueryslidemenu ul li > a{
+	color:#333333;	
+}
+.jqueryslidemenu ul li ul li a:link, .jqueryslidemenu ul li ul li a:visited{
+	color:#333333;	
+}
+
+.jqueryslidemenu ul li ul li a:hover{
+	/*hier hover*/
+
+}
+
+.jqueryslidemenu > ul li.main-links:first-child a:hover, .jqueryslidemenu > ul li.current_page_item:first-child{
+
+}
+.jqueryslidemenu > ul li.main-links:last-child a:hover, .jqueryslidemenu > ul li.current_page_item:last-child{
+
+}
+.jqueryslidemenu > ul li.current_page_item {
+
+}
+.jqueryslidemenu > ul li.current_page_item a{
+
+}	
+
+.jqueryslidemenu > ul li.current_page_item	{
+	background-image:url(../images/navi_button_hover@2x.png);	
+}
+
+.jqueryslidemenu ul li.main-links:last-child a{
+	border-right: none;
+}
+
+.jqueryslidemenu ul ul li:first-child a:hover{
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;	
+}
+.jqueryslidemenu ul ul li:last-child a:hover{
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;	
+}
+
+.jqueryslidemenu ul li.main-links:hover > a{
+	color:#666;
+}
+
+.jqueryslidemenu ul li ul{
+	/*background-color:#fff;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);*/
+}
+
+.jqueryslidemenu ul li ul li > ul{
+	background-color:#fff;
+	border-radius:5px!important;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	
+}
+.jqueryslidemenu ul li ul li > a{
+	/*border-bottom:1px solid #eee;	*/
+}
+.jqueryslidemenu ul li ul li:last-child > a{
+	border-bottom:0px solid #eee;	
+}
+
+/*Top level list items*/
+.jqueryslidemenu ul li	{
+	position: relative;
+	display: inline;
+	float: left;
+	height: 35px;
+	width: 100px;
+	background-image:url(../images/navi_button.png);	
+}
+
+/* Sub-Menu CSS Style */
+
+.jqueryslidemenu ul.sub-menu	{
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	background-color: #fff;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	
+}
+
+.jqueryslidemenu ul.sub-menu	li	{
+	border-bottom: none;
+	background-image: none;
+	background-color: transparent;
+	width: 120px;
+	
+	
+}
+
+.jqueryslidemenu ul.sub-menu	li:hover	{
+	border-bottom: none;
+	background-image: none;
+	background-color: none;
+	
+}
+
+
+.jqueryslidemenu ul li:hover 	{
+	background-image:url(../images/navi_button_hover.png);	
+}
+
+
+/*Top level menu link items style*/
+	.jqueryslidemenu ul li a{
+	display: block; /*background of tabs (default state)*/
+	padding: 7px 0px 0px 0px;
+	text-align: center;
+}
+	
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul{
+	position: absolute;
+	left: 0;
+	display: block;
+	visibility: hidden;
+	z-index:111;	
+}
+	
+
+/* Sub level menu links style */
+.jqueryslidemenu ul li ul li a{
+	/*width:135px; width of sub menus*/
+	padding:8px 0px;
+	margin: 0;
+	text-decoration: none;
+	line-height:18px;
+}
+
+.jqueryslidemenuz ul li ul li a:hover{ /*sub menus hover style*/
+	color: black;
+}
+
+#kslider	{
+	margin-top: 50px;
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+	.jqueryslidemenu ul li	{
+		position: relative;
+		display: inline;
+		float: left;
+		height: 35px;
+		width: 100px;
+		background-image:url(../images/navi_button@2x.png);
+		background-size: 100%;
+	}
+	.jqueryslidemenu ul li:hover 	{
+		background-image:url(../images/navi_button_hover@2x.png);
+		background-size: 100%;
+	}
+}

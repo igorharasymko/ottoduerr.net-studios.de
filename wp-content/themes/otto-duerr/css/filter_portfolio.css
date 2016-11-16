@@ -1,0 +1,257 @@
+ul#filter {
+	float: left;
+	font-size:16px;
+	list-style: none;
+	margin-left: 0;
+	margin:0px;
+	padding:0px;
+	width:96%;
+	margin-top:10px;
+	margin-bottom:40px;
+	background-color:#ddd;
+	border-top-right-radius:4px;
+	border-bottom-right-radius:4px;
+	
+	}
+
+ul#filter li {
+	float: left;
+	line-height: 16px;
+	padding-right:15px;
+	background-color:#f7f7f7;
+}
+
+
+ul#filter li:last-child {
+	border-right: none;
+	margin-right: 0;
+	padding-right:20px;
+}
+
+ul#filter a {
+	color: #999;
+	text-decoration: none;
+}
+ul#filter li.current a, ul#filter a:hover {
+}
+ul#filter li.current a {
+color: #4D926F;
+}
+.tag{
+	background-image:url(../images/tag.png);
+	background-repeat:no-repeat;
+	background-position:2px 2px;
+	padding-left:20px;
+}
+
+ul#portfolio_4,ul#portfolio_2,ul#portfolio_3 {
+	float: left;
+	list-style: none;
+	width:100%;
+	min-height:470px;
+	margin:0px;
+}
+ul#portfolio_4 a,ul#portfolio_2 a,ul#portfolio_3 a {
+	display: block;
+	width: 100%;
+}
+
+ul#portfolio_4 a:hover,ul#portfolio_2 a:hover,ul#portfolio_3 a:hover {
+text-decoration: none;
+}
+
+.portfolio_4_item img,.portfolio_3_item img,.portfolio_2_item img {
+	position:absolute;
+}
+
+.post_nav_box{
+	position: relative;
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	z-index:222;
+}
+
+.post_nav_box a.link_post{
+	background-image:url(../images/post_links.png);
+	background-repeat:no-repeat;
+	background-position:-31px 2px;
+	cursor:pointer;
+	position: absolute;
+	right:10px;
+	bottom:15px;
+	width:10px!important;
+	height:10px!important;
+	background-color:#4D926F;
+	padding:5px;
+}
+
+.post_nav_box a.link_post:hover, .post_nav_box .lightbox:hover, .post_nav_box .videobox:hover{
+	opacity:0.9;
+}
+
+.post_nav_box .lightbox{
+	background-image:url(../images/post_links.png);
+	background-repeat:no-repeat;
+	background-position:-16px 2px;
+	cursor:pointer;
+	position: absolute;
+	right:36px;
+	bottom:15px;
+	width:10px!important;
+	height:10px!important;
+	background-color:#4D926F;
+	padding:5px;
+	
+}
+
+.post_nav_box .videobox{
+	background-image:url(../images/post_links.png);
+	background-repeat:no-repeat;
+	background-position:1px 2px;
+	cursor:pointer;
+	position: absolute;
+	right:36px;
+	bottom:15px;
+	width:12px!important;
+	height:10px!important;
+	background-color:#4D926F;
+	padding:5px;
+}
+
+ul#portfolio_4 li{
+float: left;
+width:225px;
+margin-right:2%;
+margin-bottom:2%;
+}
+
+
+.portfolio_4_item {
+width:225px;
+height:153px;
+overflow:hidden;
+position:relative;
+float:left;
+display: inline-block;
+}
+
+.portfolio_4_item h4{
+height:113px;
+padding:20px;
+background:#000;
+color:#fff;
+position:absolute;
+left:0;
+display:none;
+filter:alpha(opacity=80);  
+-moz-opacity:0.8;  
+-khtml-opacity: 0.8;    
+opacity: 0.8; 
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius:5px;
+width:185px;
+}
+.portfolio_4_item .img_radius{
+margin:0px;
+	float:left;
+}
+ul#portfolio_3 li {
+float: left;
+width:296px;
+margin-right:3.6%;
+margin-bottom:3.6%;
+}
+
+.portfolio_3_item {
+width:296px;
+height:206px;
+overflow:hidden;
+position:relative;
+float:left;
+}
+
+.portfolio_3_item h4{
+padding:20px;
+background:#000;
+color:#fff;
+position:absolute;
+left:0;
+display:none;
+filter:alpha(opacity=80);  
+-moz-opacity:0.8;  
+-khtml-opacity: 0.8;    
+opacity: 0.8; 
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius:5px;
+width:256px;
+height:166px;
+}
+
+ul#portfolio_2 li {
+float: left;
+width:462px;
+margin-right:3.6%;
+margin-bottom:3.6%;
+}
+
+.portfolio_2_item {
+width:462px;
+height:258px;
+overflow:hidden;
+position:relative;
+float:left;
+}
+
+.portfolio_2_item h4{
+width:422px;
+height:218px;
+padding:20px;
+background:#000;
+color:#fff;
+position:absolute;
+left:0;
+display:none;
+filter:alpha(opacity=80);  
+-moz-opacity:0.8;  
+-khtml-opacity: 0.8;    
+opacity: 0.8; 
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius:5px;
+}
+
+.portfolio_4_item img, .portfolio_3_item img, .portfolio_2_item img{
+display: inline-block;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius:5px;
+}
+
+ul#portfolio_4_sidebar1{
+margin:0px;
+padding:0px;
+list-style:none;
+width:105%;
+overflow:hidden;
+background-color:#006600;
+
+}
+.portfolio_4_sidebar li{
+	height:425px;
+	width:305px;
+	overflow:hidden;
+	position:relative;
+	float:left;
+	list-style:none;
+	margin-right:20px;
+}
+.portfolio_item img{
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius:5px;
+}
+
+

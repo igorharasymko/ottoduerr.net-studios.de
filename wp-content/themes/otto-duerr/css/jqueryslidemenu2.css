@@ -1,0 +1,120 @@
+.jqueryslidemenu{
+	float:right;	
+	position:relative;
+	z-index:111;
+	border-radius:5px;
+	height:42px;
+	margin-top:15px;
+	margin-bottom:15px;
+	background-image:url(../images/header_bg.png);
+	background-repeat: repeat;
+	background-color:#363230;
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.jqueryslidemenu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.jqueryslidemenu  a, 
+.jqueryslidemenu ul li.main-links a:link, 
+.jqueryslidemenu ul li.main-links a:visited{
+	color:#ccc;
+}
+
+.jqueryslidemenu ul ul a{
+	color:#666!important;
+}
+.jqueryslidemenu ul ul a:hover{
+	color:#999!important;
+	background-color:#eee;
+}
+.jqueryslidemenu ul li.main-links:hover > a, .jqueryslidemenu ul li ul a{
+	background-color:#fff;
+	color:#666;
+}
+.jqueryslidemenu ul li ul a{
+	border-bottom:1px solid #eee;
+}
+.jqueryslidemenu ul li.current_page_item a{
+	background-color:#e9e9e9;
+	color:#666!important;
+}
+
+/*Top level list items*/
+.jqueryslidemenu ul li{
+	position: relative;
+	display: inline;
+	float: left;
+	line-height:28px;
+}
+
+	.jqueryslidemenu ul li.main-links:last-child{
+	border-right:none!important;
+	}
+	.jqueryslidemenu ul li:last-child{
+	border-right:none!important;
+	}
+
+/*Top level menu link items style*/
+	.jqueryslidemenu ul li a{
+	display: block; /*background of tabs (default state)*/
+	padding: 8px 20px 6px 20px;	
+}
+	
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul{
+	position: absolute;
+	left: 0;
+	display: block;
+	visibility: hidden;
+	z-index:111;	
+}
+	
+.jqueryslidemenu ul li ul li > ul li:first-child a{
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+}
+
+.jqueryslidemenu ul li ul li > ul li:first-child  > ul li:first-child a, .jqueryslidemenu ul li ul li > ul li:last-child  > ul li:first-child a{
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+}
+
+
+
+.jqueryslidemenu ul li > ul li:last-child a, .jqueryslidemenu ul li ul li > ul li:last-child a{
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.jqueryslidemenu ul li ul li > ul li:last-child  > ul li a, .jqueryslidemenu ul li ul li > ul li:first-child  > ul li a{
+	border-radius:0px;
+}
+
+.jqueryslidemenu ul li ul li > ul li:last-child  > ul li:last-child a{
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Sub level menu links style */
+.jqueryslidemenu ul li ul li a{
+	width:135px; /*width of sub menus*/
+	padding:8px 20px;
+	margin: 0;
+	text-decoration: none;
+	line-height:18px;
+}
+
+.jqueryslidemenu ul li ul li ul{
+	padding-left:5px;
+}
+	
+
+.jqueryslidemenuz ul li ul li a:hover{ /*sub menus hover style*/
+	color: black;
+}

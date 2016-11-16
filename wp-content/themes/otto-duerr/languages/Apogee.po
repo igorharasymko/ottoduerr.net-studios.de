@@ -1,0 +1,807 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Apogeex\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-14 12:20+0530\n"
+"PO-Revision-Date: 2012-02-14 12:20+0530\n"
+"Last-Translator: kayapati <meltingpixels@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\Program Files\\EasyPHP-5.3.8.1\\www\\wordpress\\wp-content\\themes\\apogee\n"
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/404.php:12
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/404.php:22
+msgid " <h3>Archives by Subject:</h3>"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/404.php:28
+msgid " <h3>Archives by Month::</h3>"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/archive.php:29
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/archive.php:33
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/archive.php:35
+msgid "Blog Archives"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/author.php:26
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/author.php:44
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/comments.php:10
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/comments.php:35
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/comments.php:57
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/comments.php:38
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/comments.php:60
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/comments.php:73
+msgid "Comments are closed."
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/footercolumn.php:19
+msgid " Toggle Box Column "
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/footercolumn.php:22
+msgid "Wesce sit amet porttitor leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque interdum, nulla sit amet varius dignissim Vestibulum pretium risus. <a href=\"#\"> View More &raquo;</a>"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/functions.php:139
+msgid "Primary Navigation"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/loop-blog.php:20
+msgid "By"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/loop-blog.php:21
+msgid "Leave a comment"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/loop-blog.php:21
+msgid "1 Comment"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/loop-blog.php:21
+msgid "% Comments"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/loop-page.php:28
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/page.php:25
+msgid "Pages:"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/loop-page.php:29
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/page.php:26
+msgid "Edit"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar-blog.php:21
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar-blog.php:35
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar-home.php:16
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar-home.php:32
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar-portfolio.php:21
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar-portfolio.php:37
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar.php:21
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar.php:38
+msgid "Sideabr Widget Area"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar-blog.php:22
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar-home.php:17
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar-portfolio.php:22
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar.php:22
+msgid ""
+"<p>Seleted widget area for this page is empty </p>\n"
+"\t\t\t\t<p><strong>To edit this sidebar:</strong><br>\n"
+"\t\t\t<p> Go to admin <strong><em>Appearance -> Widgets</em></strong> and place <em>widgets</em> into <strong>Appropriate</strong> Widget Areas.</p> \n"
+"\t\t\t\t"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar-blog.php:36
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar-home.php:33
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar-portfolio.php:38
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/sidebar.php:39
+msgid ""
+"<p>No <strong>Sidebar Widget Area</strong> is selected for this page</p>\n"
+"\t\t\t\t<p><strong>To edit this sidebar:</strong><br>\t\t\n"
+"\t\t\t<p> Find <strong>Page Layout Options Panel</strong> which is located top right of the page while you are creating a<strong> page or post</strong> item in wp admin and follow the instructions.</p> \n"
+"\t\t\t<p> <img src='"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/single.php:78
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/template-contact.php:39
+msgid "Your name"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/template-contact.php:42
+msgid "Your Email Adress"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/template-contact.php:45
+msgid "Subject"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/template-contact.php:48
+msgid "Message"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/template-contact.php:51
+msgid "Answer:9-6"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/template-contact.php:54
+msgid "Submit"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/admin/admin-interface.php:141
+msgid "KAYAPATI"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:14
+#, php-format
+msgid "%s <span class=\"says\"></span>"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:18
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:104
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:25
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:118
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:25
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:48
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:118
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:152
+msgid "(Edit)"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:48
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:152
+msgid "Pingback:"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:69
+msgid "Posted In"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:70
+msgid "By "
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:98
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:174
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:178
+#, php-format
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/kaya_comments.php:182
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:8
+msgid "Portfolios"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:10
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:33
+msgid "portfolio"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:12
+msgid "Add New"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:14
+msgid "Add New portfolio"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:16
+msgid "Edit portfolio"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:18
+msgid "New portfolio"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:20
+msgid "View portfolio"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:22
+msgid "Search portfolios"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:24
+msgid "No portfolios found"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:26
+msgid "No portfolios found in Trash"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:62
+msgid "portfolio Categories"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:64
+msgid "Portfolio Category"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:66
+msgid "Search Categories"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:68
+msgid "Popular Categories"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:70
+msgid "All Categories"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:76
+msgid "Edit portfolio Category"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:78
+msgid "Update portfolio Category"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:80
+msgid "Add New portfolio Category"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:82
+msgid "New portfolio Category Name"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:84
+msgid "Separate Portfolio category with commas"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:86
+msgid "Add or remove portfolio category"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:88
+msgid "Choose from the most used portfolio category"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:110
+msgid "Portfolio Name"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:114
+msgid "Categories"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_portfolio.php:116
+msgid "Date"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_slider.php:9
+msgid "Kaya Slider"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_slider.php:11
+msgid "slider"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/custom_posts/kaya_slider.php:13
+msgid "Home Page Slider"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:8
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_post.php:8
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:23
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_post.php:18
+msgid "Kaya Shortcodes"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:36
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_post.php:31
+msgid "General Shortcodes"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:49
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_post.php:43
+msgid "Select Shortcode"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:89
+msgid "Select Categories"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:96
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:152
+msgid "All"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:110
+msgid "Number of Columns"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:112
+msgid "( max 5 columns start: 1 to 5)"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:120
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:165
+msgid "Posts Per Page"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:127
+msgid "Sidebar"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:128
+msgid "Off"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:129
+msgid "On"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:145
+msgid "Select Category"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:172
+msgid "Image Width"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:179
+msgid "Image Height"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:187
+msgid "Meta Info Show/Hide"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:189
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:198
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:206
+msgid "Show"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:190
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:207
+msgid " Hide"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:196
+msgid "Post Image Show/Hide"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:199
+msgid "Hide"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:204
+msgid "Pagination Show/Hide"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:220
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_post.php:76
+msgid "Cancel"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_page.php:224
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/tinymce/window_post.php:80
+msgid "Insert"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_cat_post_slider_news.php:6
+msgid "Display the latest posts items from chosen category as news slider"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_cat_post_slider_news.php:123
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_cat_post_slider_testimonial.php:110
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_contactinfo.php:83
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_popularpost.php:114
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_recentpost.php:120
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_tax_portfolio_nivoslider.php:83
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_tax_recentpost.php:79
+msgid "Title"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_cat_post_slider_news.php:130
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_cat_post_slider_testimonial.php:117
+msgid "Choose News Category"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_cat_post_slider_testimonial.php:6
+msgid "Display the latest posts items from chosen category as Testimonial slider"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_contactinfo.php:5
+msgid "Use this widget to add \"Mailing Address\""
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_contactinfo.php:89
+msgid "Name"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_contactinfo.php:95
+msgid "Address"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_contactinfo.php:101
+msgid "Phone No"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_contactinfo.php:107
+msgid "Fax"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_contactinfo.php:113
+msgid "Email"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_flickr.php:5
+msgid "Use this widget to display Flicker Photos"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_flickr.php:57
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_twitter.php:50
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/mini_contact_widget.php:85
+msgid "Title:"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_popularpost.php:5
+msgid "The most popular posts on your site"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_popularpost.php:71
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_recentpost.php:83
+msgid "0"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_popularpost.php:71
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_recentpost.php:83
+msgid "1"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_popularpost.php:71
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_recentpost.php:83
+msgid "%"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_popularpost.php:121
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_recentpost.php:134
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_tax_recentpost.php:106
+msgid "Number of posts to show"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_popularpost.php:129
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_recentpost.php:142
+msgid "Disable Post Content"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_popularpost.php:134
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_recentpost.php:148
+msgid "Excerpt length (in words):"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_popularpost.php:141
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_recentpost.php:158
+msgid "Disable post date"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_popularpost.php:147
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_recentpost.php:164
+msgid "Disable Comments"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_popularpost.php:154
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_recentpost.php:172
+msgid "Disable post thumbnail"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_recentpost.php:6
+msgid "The custom recent posts with thumbnail, date and comments"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_recentpost.php:127
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_tax_portfolio_nivoslider.php:90
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_tax_recentpost.php:86
+msgid "Category"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_tax_portfolio_nivoslider.php:6
+msgid "Use this widget to display mini \"Portfolio Slider\""
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_tax_portfolio_nivoslider.php:126
+msgid "Number of Images to display"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_tax_recentpost.php:6
+msgid "Use this widget to display portfolio items"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_twitter.php:9
+msgid "Display Your Recent Tweets"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_twitter.php:55
+msgid "User Name:"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/kaya_twitter.php:60
+msgid "Number Of Links:"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/mini_contact_widget.php:9
+msgid "Use this widget to add mini \"Contact form\""
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/mini_contact_widget.php:35
+msgid "Please check if you have filled all the fields with valid information. Thank you"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/mini_contact_widget.php:40
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/mini_contact_widget.php:42
+msgid "<strong>Email Successfully Sent!</strong>"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/mini_contact_widget.php:44
+msgid "Thank you"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/mini_contact_widget.php:45
+msgid "for using my contact form! Your email was successfully sent and I will be in touch with you soon."
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/mini_contact_widget.php:50
+msgid "Your Name :"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/mini_contact_widget.php:51
+msgid "Your Email :"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/mini_contact_widget.php:54
+msgid "Message :"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/functions/widgets/mini_contact_widget.php:89
+msgid "Email Id:"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/includes/portfolio_walker.php:17
+#, php-format
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/includes/portfolio_walker.php:49
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/includes/breadcrumbs-plus/breadcrumbs-plus.php:51
+msgid "Home"
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/includes/breadcrumbs-plus/breadcrumbs-plus.php:138
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/includes/breadcrumbs-plus/breadcrumbs-plus.php:141
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/includes/breadcrumbs-plus/breadcrumbs-plus.php:144
+msgid "Archives for "
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/includes/breadcrumbs-plus/breadcrumbs-plus.php:148
+msgid "Archives by: "
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/includes/breadcrumbs-plus/breadcrumbs-plus.php:153
+msgid "Search results for \""
+msgstr ""
+
+#: C:\Program
+#: Files\EasyPHP-5.3.8.1\www\wordpress\wp-content\themes\apogee/lib/includes/breadcrumbs-plus/breadcrumbs-plus.php:157
+msgid "Page Not Found"
+msgstr ""
+
