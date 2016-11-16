@@ -16,25 +16,6 @@ $aside_class=($sidebar_layout== "leftsidebar" ) ?  'one_third' : 'one_third_last
 	// Page Title
 	echo custom_pagetitle($post->ID);
 ?>
-        <style>
-            #outerdiv
-            {
-                min-height:496px;
-                overflow:hidden;
-                position:relative;
-            }
-            #innerIframe
-            {
-                position:absolute;
-                top:-333px;
-                left:0;
-                width:975px;
-                min-height: 3940px;
-            }
-        </style>
-        <div id="outerdiv">
-            <iframe src="http://www2.hornschuch.com/de/interior/kunstleder/" id="innerIframe" onload="resizeIframe()"></iframe>
-        </div>
         <div <?php echo page_layout($post->ID); ?>>
             <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
             <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
